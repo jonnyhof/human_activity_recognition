@@ -52,7 +52,7 @@ The results for the divide and conquor model were outstanding. The first stage r
 
 We can visualize the results below in a confusion matrix.
 
-<img src=images/entoend_cfmatrix.png width=800>
+<img src=images/endtoend_cfmatrix.png width=800>
 
 Notice the red boxes in the upper right and bottom left corner. These indicate that there were no mis-classifications in the binary stage. This is huge as we can they rely on more specifically tuned models to the group the specific activties. Also, if we ever want to extract information on time spent doing dynamic vs static activities, we know we can rely on the accuracy of the binary prediction.
 
@@ -80,7 +80,19 @@ Here, single row instances are classified into activity. In practice, we are mor
 
 ### Sources / References
 
+Data:
+  - [UCI](https://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions)
+  - [Data Aquisition Paper](https://www.esann.org/sites/default/files/proceedings/legacy/es2013-84.pdf)
+
+Tools / Packages:
+  - [Tensorflow](https://www.tensorflow.org/api_docs/python/tf)
+  - [Sci-Kit Learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html?highlight=random%20forest#sklearn.ensemble.RandomForestClassifier)
+
+References / Sources:
+  - [Divide and Conquor HAR Research paper](https://www.mdpi.com/1424-8220/18/4/1055)
+  - [Machine Learning Mastery - Summary of the different HAR research methods](https://machinelearningmastery.com/deep-learning-models-for-human-activity-recognition/)
+  - [ML Mastery - 1D CNN for HAR](https://machinelearningmastery.com/cnn-models-for-human-activity-recognition-time-series-classification/)
 
 
 ### Thanks for reading!
-If you have any questions feel free to contact me via [email](jonny.hofmeister@gmail.com).
+If you have any questions feel free to contact me via email at jonny.hofmeister@gmail.com
