@@ -52,7 +52,7 @@ The results for the divide and conquor model were outstanding. The first stage r
 
 We can visualize the results below in a confusion matrix.
 
-<img src=images/cfmatrix.png width=800>
+<img src=images/cfmatrix.jpeg width=700>
 
 Notice the red boxes in the upper right and bottom left corner. These indicate that there were no mis-classifications in the binary stage. This is huge as we can they rely on more specifically tuned models to the group the specific activties. Also, if we ever want to extract information on time spent doing dynamic vs static activities, we know we can rely on the accuracy of the binary prediction.
 
